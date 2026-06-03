@@ -1,6 +1,6 @@
 ## MD analysis pipeline
 
-Scripts required to process MD trajectories, to analyze peptide torsions, construct free energy landscapes and analyze them as described in **Molecular conformation as a determinant of tripeptide self-assembly**
+Scripts required to process MD trajectories, to analyze peptide torsions, construct free energy landscapes and analyze them as described in: **Molecular conformation as a determinant of tripeptide self-assembly**
 
 ## Environment variables
 
