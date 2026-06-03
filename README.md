@@ -16,9 +16,12 @@ results/FDY1_C36m-sTIP3P/Run{1-3}
 
 python scripts/00_process_trajectory/ProcessTraj.py      
     -- correct trajectory PBC (example contains preprocessed trajectory)
+
 python scripts/01_calculate_torsions/MeasureTorsions.py  
     -- measure torsional angles lambda1/lambda2
+
 python scripts/02_make_FEL/RunFS.py                      
     -- construct FEL using 2D-KDE (run script invokes SolveFEL.py)
+    
 python scripts/03_analyze_FEL/AnalyzeFEL.py              
     -- evaluate FEL curvature 
